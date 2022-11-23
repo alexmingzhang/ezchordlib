@@ -2,7 +2,8 @@
 Python library that can handle complex musical chords
 
 Usage:
-```>>> from ezchordlib import Chord
+```python
+>>> from ezchordlib import Chord
 >>> cool = Chord("Am7b5#11/E")
 >>> cool.get_midi()
 [4, 21, 24, 27, 31, 39]
